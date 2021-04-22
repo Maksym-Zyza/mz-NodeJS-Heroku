@@ -6,36 +6,51 @@ const PORT = process.env.PORT || 8080;
 app.get("/", (req, res) => {
   res.end(`
   <div>
-    <nav>
+      <nav>
       <ul>
         <li>
-          <a href='/'>Home - JS</a>
+          <a href='/'>Home</a>
         </li>
          <li>
           <a href='/html'>Html</a>
         </li>
+        </li>
+         <li>
+          <a href='/css'>CSS</a>
+        </li>
+        </li>
+         <li>
+          <a href='/js'>JS</a>
+        </li>
         <li>
-          <a href='/about'>React</a>
+          <a href='/react'>React</a>
         </li>
       </ul>
     </nav>
 
-    <h1>Home - JS page</h1>
+    <h1>Home page</h1>
 
-    <img align="left" alt="JavaScript" width="100px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
   </div>`);
 });
 
 app.get("/html", (req, res) => {
   res.end(`
   <div>
-    <nav>
+       <nav>
       <ul>
         <li>
-          <a href='/'>Home - JS</a>
+          <a href='/'>Home</a>
         </li>
          <li>
           <a href='/html'>Html</a>
+        </li>
+        </li>
+         <li>
+          <a href='/css'>CSS</a>
+        </li>
+        </li>
+         <li>
+          <a href='/js'>JS</a>
         </li>
         <li>
           <a href='/react'>React</a>
@@ -45,7 +60,69 @@ app.get("/html", (req, res) => {
 
     <h1>Html page</h1>
 
-    <img align="left" alt="HTML5" width="42px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /> 
+    <img align="left" alt="HTML5" width="100px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /> 
+  </div>`);
+});
+
+app.get("/css", (req, res) => {
+  res.end(`
+  <div>
+    <nav>
+      <ul>
+        <li>
+          <a href='/'>Home</a>
+        </li>
+         <li>
+          <a href='/html'>Html</a>
+        </li>
+        </li>
+         <li>
+          <a href='/css'>CSS</a>
+        </li>
+        </li>
+         <li>
+          <a href='/js'>JS</a>
+        </li>
+        <li>
+          <a href='/react'>React</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>CSS page</h1>
+
+    <img align="left" alt="CSS3" width="100px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
+  </div>`);
+});
+
+app.get("/js", (req, res) => {
+  res.end(`
+  <div>
+    <nav>
+      <ul>
+        <li>
+          <a href='/'>Home</a>
+        </li>
+         <li>
+          <a href='/html'>Html</a>
+        </li>
+        </li>
+         <li>
+          <a href='/css'>CSS</a>
+        </li>
+        </li>
+         <li>
+          <a href='/js'>JS</a>
+        </li>
+        <li>
+          <a href='/react'>React</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>JS page</h1>
+
+    <img align="left" alt="JavaScript" width="100px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
   </div>`);
 });
 
@@ -55,10 +132,18 @@ app.get("/react", (req, res) => {
     <nav>
       <ul>
         <li>
-          <a href='/'>Home - JS</a>
+          <a href='/'>Home</a>
         </li>
          <li>
           <a href='/html'>Html</a>
+        </li>
+        </li>
+         <li>
+          <a href='/css'>CSS</a>
+        </li>
+        </li>
+         <li>
+          <a href='/js'>JS</a>
         </li>
         <li>
           <a href='/react'>React</a>
