@@ -52,6 +52,7 @@ HTML elements are the building blocks of HTML pages. With HTML constructs, image
 for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as img and input directly introduce content into the page. Other tags such as <p> 
 surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.
     </p>
+    <a href='https://en.wikipedia.org/wiki/HTML'>more</a>
     <img align="left" alt="HTML5" width="200px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" /> 
   </div>`);
 });
@@ -70,6 +71,7 @@ Separation of formatting and content also makes it feasible to present the same 
 The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
 The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
     </p>
+    <a href='https://en.wikipedia.org/wiki/CSS'>more</a>
     <img align="left" alt="CSS3" width="200px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
   </div>`);
 });
@@ -85,6 +87,7 @@ Alongside HTML and CSS, JavaScript is one of the core technologies of the World 
 As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
 The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
     </p>
+    <a href='https://uk.wikipedia.org/wiki/JavaScript'>more</a>
     <img align="left" alt="JavaScript" width="200px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
   </div>`);
 });
@@ -99,6 +102,7 @@ app.get("/react", (req, res) => {
     developers and companies.[4][5][6] React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, 
     so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.[7]
     </p>
+    <a href='https://en.wikipedia.org/wiki/React_(JavaScript_library)'>more</a>
     <img align="left" alt="React" width="200px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
   </div>`);
 });
